@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benne's Best Meat | Farm-Raised Meats Near St. Louis</title>
+    <meta name="description" content="Family-owned farm offering free-range, antibiotic-free beef, pork, chicken, and eggs in St. Charles, Missouri. Direct farm sales within 35 miles of St. Louis.">
+    <meta name="keywords" content="farm-raised meat, grass-fed beef, free-range chicken, heritage pork, farm-fresh eggs, St. Charles, St. Louis, Missouri, sustainable farming">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bennesbest.com/">
+    <meta property="og:title" content="Benne's Best Meat | Farm-Raised Meats Near St. Louis">
+    <meta property="og:description" content="Family-owned farm offering free-range, antibiotic-free beef, pork, chicken, and eggs in St. Charles, Missouri.">
+    <meta property="og:image" content="img/hero-bg.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bennesbest.com/">
+    <meta property="twitter:title" content="Benne's Best Meat | Farm-Raised Meats Near St. Louis">
+    <meta property="twitter:description" content="Family-owned farm offering free-range, antibiotic-free beef, pork, chicken, and eggs in St. Charles, Missouri.">
+    <meta property="twitter:image" content="img/hero-bg.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://bennesbest.com/">
+    
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -156,5 +176,122 @@
     </footer>
 
     <script src="js/main.js"></script>
+    
+    <!-- Structured Data for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Benne's Best Meat",
+      "image": "img/hero-bg.jpg",
+      "description": "Family-owned farm offering free-range, antibiotic-free beef, pork, chicken, and eggs in St. Charles, Missouri.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "850 South Breeze",
+        "addressLocality": "Saint Charles",
+        "addressRegion": "MO",
+        "postalCode": "63304",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.7002229796041,
+        "longitude": -90.55213778431688
+      },
+      "telephone": "636-486-6024",
+      "url": "https://bennesbest.com/",
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://bennesbest.com/"
+      ]
+    }
+    </script>
+
+    <!-- Structured Data for Products -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "Grass-fed Beef",
+            "description": "Grass-fed and grain-finished beef raised on our family farm.",
+            "image": "img/beef.jpg",
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "priceCurrency": "USD",
+              "url": "https://bennesbest.com/brochure/brochure.pdf"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "Heritage Pork",
+            "description": "Heritage pork raised outdoors with room to roam and natural behaviors.",
+            "image": "img/pork.jpg",
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "priceCurrency": "USD",
+              "url": "https://bennesbest.com/brochure/brochure.pdf"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Product",
+            "name": "Free-range Chicken",
+            "description": "Free-range chicken with access to pasture for a natural diet.",
+            "image": "img/chicken.jpg",
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "priceCurrency": "USD",
+              "url": "https://bennesbest.com/brochure/brochure.pdf"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Product",
+            "name": "Farm-fresh Eggs",
+            "description": "Farm-fresh eggs from our free-range hens, rich in flavor and nutrition.",
+            "image": "img/eggs.jpg",
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "priceCurrency": "USD",
+              "url": "https://bennesbest.com/brochure/brochure.pdf"
+            }
+          }
+        }
+      ]
+    }
+    </script>
 </body>
 </html>

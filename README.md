@@ -21,6 +21,18 @@ bennes-best/
 - Performance-optimized with minimal dependencies
 - Easy to maintain and update
 
+## GitHub Pages Deployment
+
+To deploy this site on GitHub Pages:
+
+1. Go to your GitHub repository settings
+2. Navigate to "Pages" in the left sidebar
+3. Under "Source", select the branch you want to deploy from (main or gh-pages)
+4. Select the root folder (/) as the publishing source
+5. Click "Save"
+
+Your site will be published at `https://[username].github.io/bennes-best/`
+
 ## Development
 
 This is a static website with HTML, CSS, and minimal vanilla JavaScript. To develop locally:
@@ -29,10 +41,6 @@ This is a static website with HTML, CSS, and minimal vanilla JavaScript. To deve
 2. Open `index.html` in your browser
 
 There are no build steps or dependencies required.
-
-## Deployment
-
-Upload the files to any static web hosting service.
 
 ## Image Placeholders
 
